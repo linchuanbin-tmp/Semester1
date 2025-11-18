@@ -1,0 +1,284 @@
+0 verbose cli E:\VUE\node.exe E:\VUE\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:E:\VUE\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\HF\Desktop\DjangoProject\frontend\.npmrc
+5 silly config load:file:C:\Users\HF\.npmrc
+6 silly config load:file:E:\VUE\node_global\etc\npmrc
+7 verbose title npm install vue-router@4 pinia axios element-plus @element-plus/icons-vue
+8 verbose argv "install" "vue-router@4" "pinia" "axios" "element-plus" "@element-plus/icons-vue" "--no-audit" "--progress" "false"
+9 verbose logfile logs-max:10 dir:C:\Users\HF\Desktop\DjangoProject\.npm-cache\_logs\2025-09-30T16_25_01_662Z-
+10 verbose logfile C:\Users\HF\Desktop\DjangoProject\.npm-cache\_logs\2025-09-30T16_25_01_662Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @element-plus/icons-vue@^2.3.2
+15 silly packumentCache full:https://registry.npmmirror.com/@element-plus%2ficons-vue cache-miss
+16 http cache https://registry.npmmirror.com/@element-plus%2ficons-vue 34ms (cache hit)
+17 silly packumentCache full:https://registry.npmmirror.com/@element-plus%2ficons-vue set size:124486 disposed:false
+18 silly fetch manifest vue@^3.5.21
+19 silly packumentCache full:https://registry.npmmirror.com/vue cache-miss
+20 http cache https://registry.npmmirror.com/vue 10ms (cache hit)
+21 silly packumentCache full:https://registry.npmmirror.com/vue set size:2009609 disposed:false
+22 silly fetch manifest typescript@~5.8.3
+23 silly packumentCache full:https://registry.npmmirror.com/typescript cache-miss
+24 http cache https://registry.npmmirror.com/typescript 27ms (cache hit)
+25 silly packumentCache full:https://registry.npmmirror.com/typescript set size:13948684 disposed:false
+26 silly fetch manifest axios@^1.12.2
+27 silly packumentCache full:https://registry.npmmirror.com/axios cache-miss
+28 http cache https://registry.npmmirror.com/axios 7ms (cache hit)
+29 silly packumentCache full:https://registry.npmmirror.com/axios set size:702364 disposed:false
+30 silly fetch manifest element-plus@^2.11.4
+31 silly packumentCache full:https://registry.npmmirror.com/element-plus cache-miss
+32 http cache https://registry.npmmirror.com/element-plus 9ms (cache hit)
+33 silly packumentCache full:https://registry.npmmirror.com/element-plus set size:1071221 disposed:false
+34 silly fetch manifest pinia@^3.0.3
+35 silly packumentCache full:https://registry.npmmirror.com/pinia cache-miss
+36 http cache https://registry.npmmirror.com/pinia 7ms (cache hit)
+37 silly packumentCache full:https://registry.npmmirror.com/pinia set size:490635 disposed:false
+38 silly fetch manifest vue-router@4
+39 silly packumentCache full:https://registry.npmmirror.com/vue-router cache-miss
+40 http cache https://registry.npmmirror.com/vue-router 6ms (cache hit)
+41 silly packumentCache full:https://registry.npmmirror.com/vue-router set size:810706 disposed:false
+42 silly placeDep ROOT @element-plus/icons-vue@2.3.2 REPLACE for: frontend@0.0.0 want: ^2.3.2
+43 silly placeDep ROOT axios@1.12.2 REPLACE for: frontend@0.0.0 want: ^1.12.2
+44 silly placeDep ROOT element-plus@2.11.4 REPLACE for: frontend@0.0.0 want: ^2.11.4
+45 silly placeDep ROOT pinia@3.0.3 REPLACE for: frontend@0.0.0 want: ^3.0.3
+46 silly placeDep ROOT vue-router@4.5.1 REPLACE for: frontend@0.0.0 want: 4
+47 silly reify moves {}
+48 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\fsevents
+49 silly reify mark deleted [
+49 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\fsevents'
+49 silly reify ]
+50 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-win32-ia32-msvc
+51 silly reify mark deleted [
+51 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+51 silly reify ]
+52 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-win32-arm64-msvc
+53 silly reify mark deleted [
+53 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+53 silly reify ]
+54 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-openharmony-arm64
+55 silly reify mark deleted [
+55 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-openharmony-arm64'
+55 silly reify ]
+56 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-x64-musl
+57 silly reify mark deleted [
+57 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-x64-musl'
+57 silly reify ]
+58 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-x64-gnu
+59 silly reify mark deleted [
+59 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+59 silly reify ]
+60 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-s390x-gnu
+61 silly reify mark deleted [
+61 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+61 silly reify ]
+62 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-riscv64-musl
+63 silly reify mark deleted [
+63 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+63 silly reify ]
+64 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-riscv64-gnu
+65 silly reify mark deleted [
+65 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+65 silly reify ]
+66 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-ppc64-gnu
+67 silly reify mark deleted [
+67 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+67 silly reify ]
+68 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-loong64-gnu
+69 silly reify mark deleted [
+69 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+69 silly reify ]
+70 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-arm64-musl
+71 silly reify mark deleted [
+71 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+71 silly reify ]
+72 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-arm64-gnu
+73 silly reify mark deleted [
+73 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+73 silly reify ]
+74 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-arm-musleabihf
+75 silly reify mark deleted [
+75 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+75 silly reify ]
+76 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-linux-arm-gnueabihf
+77 silly reify mark deleted [
+77 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+77 silly reify ]
+78 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-freebsd-x64
+79 silly reify mark deleted [
+79 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-freebsd-x64'
+79 silly reify ]
+80 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-freebsd-arm64
+81 silly reify mark deleted [
+81 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-freebsd-arm64'
+81 silly reify ]
+82 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-darwin-x64
+83 silly reify mark deleted [
+83 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-darwin-x64'
+83 silly reify ]
+84 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-darwin-arm64
+85 silly reify mark deleted [
+85 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-darwin-arm64'
+85 silly reify ]
+86 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-android-arm64
+87 silly reify mark deleted [
+87 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-android-arm64'
+87 silly reify ]
+88 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@rollup\rollup-android-arm-eabi
+89 silly reify mark deleted [
+89 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@rollup\\rollup-android-arm-eabi'
+89 silly reify ]
+90 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\win32-ia32
+91 silly reify mark deleted [
+91 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\win32-ia32'
+91 silly reify ]
+92 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\win32-arm64
+93 silly reify mark deleted [
+93 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\win32-arm64'
+93 silly reify ]
+94 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\sunos-x64
+95 silly reify mark deleted [
+95 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\sunos-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\openharmony-arm64
+97 silly reify mark deleted [
+97 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\openharmony-arm64'
+97 silly reify ]
+98 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\openbsd-x64
+99 silly reify mark deleted [
+99 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\openbsd-x64'
+99 silly reify ]
+100 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\openbsd-arm64
+101 silly reify mark deleted [
+101 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\openbsd-arm64'
+101 silly reify ]
+102 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\netbsd-x64
+103 silly reify mark deleted [
+103 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\netbsd-x64'
+103 silly reify ]
+104 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\netbsd-arm64
+105 silly reify mark deleted [
+105 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\netbsd-arm64'
+105 silly reify ]
+106 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-x64
+107 silly reify mark deleted [
+107 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-x64'
+107 silly reify ]
+108 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-s390x
+109 silly reify mark deleted [
+109 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-s390x'
+109 silly reify ]
+110 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-riscv64
+111 silly reify mark deleted [
+111 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-riscv64'
+111 silly reify ]
+112 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-ppc64
+113 silly reify mark deleted [
+113 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-ppc64'
+113 silly reify ]
+114 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-mips64el
+115 silly reify mark deleted [
+115 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-mips64el'
+115 silly reify ]
+116 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-loong64
+117 silly reify mark deleted [
+117 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-loong64'
+117 silly reify ]
+118 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-ia32
+119 silly reify mark deleted [
+119 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-ia32'
+119 silly reify ]
+120 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-arm64
+121 silly reify mark deleted [
+121 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-arm64'
+121 silly reify ]
+122 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\linux-arm
+123 silly reify mark deleted [
+123 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\linux-arm'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\freebsd-x64
+125 silly reify mark deleted [
+125 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\freebsd-x64'
+125 silly reify ]
+126 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\freebsd-arm64
+127 silly reify mark deleted [
+127 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\freebsd-arm64'
+127 silly reify ]
+128 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\darwin-x64
+129 silly reify mark deleted [
+129 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\darwin-x64'
+129 silly reify ]
+130 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\darwin-arm64
+131 silly reify mark deleted [
+131 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\darwin-arm64'
+131 silly reify ]
+132 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\android-x64
+133 silly reify mark deleted [
+133 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\android-x64'
+133 silly reify ]
+134 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\android-arm64
+135 silly reify mark deleted [
+135 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\android-arm64'
+135 silly reify ]
+136 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\android-arm
+137 silly reify mark deleted [
+137 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\android-arm'
+137 silly reify ]
+138 verbose reify failed optional dependency C:\Users\HF\Desktop\DjangoProject\frontend\node_modules\@esbuild\aix-ppc64
+139 silly reify mark deleted [
+139 silly reify   'C:\\Users\\HF\\Desktop\\DjangoProject\\frontend\\node_modules\\@esbuild\\aix-ppc64'
+139 silly reify ]
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 verbose cwd C:\Users\HF\Desktop\DjangoProject\frontend
+187 verbose os Windows_NT 10.0.26100
+188 verbose node v22.20.0
+189 verbose npm  v10.9.3
+190 verbose exit 0
+191 info ok

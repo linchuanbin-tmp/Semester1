@@ -1,0 +1,67 @@
+:root {
+  font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1f2a37;
+  background-color: #f6f5f1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --brand-leaf: #49b08f;
+  --brand-sky: #6db4ff;
+  --brand-sand: #ffe4c7;
+  --brand-ink: #1f2a37;
+  --panel-bg: rgba(255, 255, 255, 0.9);
+  --panel-border: rgba(15, 23, 42, 0.08);
+  --soft-shadow: 0 18px 30px rgba(15, 23, 42, 0.09);
+  --el-color-primary: var(--brand-leaf);
+  --el-color-success: #34c759;
+  --el-color-warning: #f59e0b;
+  --el-color-danger: #ef4444;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand-lilac);
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #fefefe 0%, #f6f5f1 60%, #f0f7f4 100%);
+  min-height: 100vh;
+  color: var(--brand-ink);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glass-panel {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  box-shadow: var(--soft-shadow);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+}
+
+.text-muted {
+  color: rgba(31, 42, 55, 0.55);
+}
+
+.grid-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(31, 42, 55, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 42, 55, 0.03) 1px, transparent 1px);
+  background-size: 100px 100px;
+  opacity: 0.35;
+}

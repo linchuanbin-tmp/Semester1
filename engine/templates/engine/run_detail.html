@@ -1,0 +1,27 @@
+{% extends "engine/base.html" %}
+{% block content %}
+<h4>任务状态：{{ task.status }}</h4>
+<a class="btn btn-sm btn-secondary" href="{% url 'engine:index' %}">返回</a>
+<hr>
+
+<div class="border p-3" style="height:300px; overflow-y:scroll; background:#f7f7f7;">
+  {% for m in msgs %}
+    <p>
+      <strong>{{ m.agent.name }}</strong>
+      <small class="text-muted">{{ m.timestamp|time:"H:i:s" }}</small><br>
+      {{ m.content }}
+    </p>
+  {% empty %}
+    <p class="text-muted">等待 Agent 回复中 ...</p>
+  {% endfor %}
+</div>
+
+<!-- 3 分钟后停止自动刷新 -->
+<meta id="refresh-meta" http-equiv="refresh" content="2">
+<script>
+  setTimeout(() => {
+    const meta = document.getElementById('refresh-meta');
+    if (meta) meta.remove();
+  }, 3 * 60 * 1000);
+</script>
+{% endblock %}

@@ -1,0 +1,28 @@
+# Django 核心
+Django==5.2.6
+
+# REST API
+djangorestframework
+
+# JWT 认证
+djangorestframework-simplejwt
+
+# 异步任务
+celery==5.3.4
+
+# WebSocket 支持
+channels
+channels-redis
+
+# CORS 支持
+django-cors-headers
+
+# LLM 客户端
+openai>=2.7.0
+
+# Redis 客户端
+redis
+
+# ASGI 支持（通常随 channels 安装，但明确列出）
+asgiref
+

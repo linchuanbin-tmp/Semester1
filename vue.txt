@@ -1,0 +1,23 @@
+
+先进入前端目录：cd frontend
+如果还没装依赖，执行 npm install
+运行开发服务器：npm run dev。终端会打印本地访问地址（默认 http://localhost:3000）
+
+按 README 的流程启动 Redis → Celery Worker → LM Studio → 迁移数据库 → python manage.py runserver。
+在浏览器控制台执行：
+localStorage.setItem('auth_token', 'dev-token')
+localStorage.setItem('auth_user', JSON.stringify({ id: 1, username: 'dev' }))
+location.reload()
+这样就能进到仪表盘、表单和详情页验证 UI 是否正常渲染，但所有 API 调用都会因为后端未实现而报错提示。
+
+
+在 frontend/ 初始化了 Vue3+Vite 项目骨架，配置了代理与环境变量，已支持 npm run dev 启动本地前端 (frontend/vite.config.ts:1, .env.development:1)。
+建好了路由、Pinia 鉴权状态与 ElementPlus 布局壳，登录页、注册占位页和主控制台框架就绪 (frontend/src/main.ts:1, frontend/src/store/auth.ts:1, frontend/src/router/index.ts:1, frontend/src/layouts/AppLayout.vue:1)。
+实现了统一的 Axios 服务层与类型定义，封装了工作流相关 API、轮询工具及错误处理 (frontend/src/services/http.ts:1, frontend/src/services/workflows.ts:1, frontend/src/utils/polling.ts:1, frontend/src/types/workflow.ts:1)。
+用 Vue 组件替换了原 Django 模板的三大页面：工作流列表、创建表单、详情页均能渲染真实数据并支持轮询、删除、终止的交互流程 (frontend/src/views/workflows/WorkflowListView.vue:1, frontend/src/views/workflows/WorkflowCreateView.vue:1, frontend/src/views/workflows/WorkflowDetailView.vue:1)。
+npm run build 已验证通过，会输出 dist/（存在 Element Plus 体积提醒但不影响功能）。当前若后端未提供 REST 接口，将看到友好的提示或 Toast，等接口接好即可联调。
+
+当前效果：
+已完成 SPA 壳、鉴权状态管理、工作流列表/新建/详情三大页面骨架，配合统一的 API 封装，能在接口就绪后直接请求真实数据。
+详情页实现了轮询 + 时间线渲染，模拟未来的实时消息展示；表单已覆盖策略选择、描述填写、可选数据源 URL。
+登录页可在后端实现 JWT 后立即投入使用，注册页保留占位提醒。
